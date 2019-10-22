@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    height: 650px;
+    width: 970px;
+    border: 2px solid red;
+}
+    .header{
+        height: 80px;
+        border: 2px solid purple;
+        margin: 10px;
+        border-radius: 15px;
+    }
+        .jbasics h1{
+            color: silver;
+            margin: 15px;
+        }
+
+    .navBar{
+        height: 185px;
+        width: 170px;
+        border: 2px solid orange;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 15px;
+        display: inline-block;
+        padding: 15px;
+        vertical-align: top;
+
+    }
+        .overview{
+            color: red;
+            margin-left: 15px;
+        }
+        ul li{
+            color: purple;
+            margin-left: 32px;
+        }
+
+    .main_content{
+        height: 455px;
+        width: 720px;
+        border: 2px solid green;
+        border-radius: 15px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+        .main_content li{
+            color: red;
+            font-size: 13px;
+            padding: 2px; 
+        }
+        .main_content span{
+            color: limegreen;
+        }
+
+
+
+
+
+
+
+    .footer{
+    height: 45px;
+    width: 940px;
+    border: 2px solid lightseagreen; 
+    margin: 10px;
+    border-radius: 15px;
+    }
+
+
+
+
+
+
+
