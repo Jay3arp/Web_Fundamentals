@@ -59,31 +59,29 @@
         {
             color: black;
         }
-/* CSS for project one La Mode */
-    .project_one{
+/* CSS for project 1 La Mode */
+    .project{
         display: inline-block;
-        margin-left: 15px;
+        margin-left: 8px;
+        
     }
-        .la_mode{
+        .project img{
+            height: 210px;
+            width: 285px;
+        }
+        .project .title{
             border: 2px dotted springgreen;
             height: 35px;
             width: 285px;
             margin-top: 20px;
-        }
-        .la_mode_pic img{
-            height: 210px;
-            width: 285px;
-            border: 2px solid yellow;
-        }
-        .la_mode{
             font-family: Arial, Helvetica, sans-serif;
         }
-        .la_mode_description{
+        .project .description{
             border: 2px solid fuchsia;
-            height: 150px;
-            width: 265px;
+            height: 190px;
+            width: 260px;
             font-family: Arial, Helvetica, sans-serif;
-            padding: 10px;
+            padding: 11px;
         }
         .technolgies{
             border: 2px dotted springgreen;
@@ -108,6 +106,7 @@
                 border-radius: 10px;
                 padding: 5px;
                 margin-left: 90px;
+                margin-top: 5px;
             }
 
 
