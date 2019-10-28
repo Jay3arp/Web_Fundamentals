@@ -22,7 +22,6 @@
     .background{
         background-image: linear-gradient(rgb(82, 1, 1), gray);
         width: 930px;
-        height: 700px;
         padding: 20px;
     }
         .profile_pic img{
@@ -60,5 +59,55 @@
         {
             color: black;
         }
-    
+/* CSS for project one La Mode */
+    .project_one{
+        display: inline-block;
+        margin-left: 15px;
+    }
+        .la_mode{
+            border: 2px dotted springgreen;
+            height: 35px;
+            width: 285px;
+            margin-top: 20px;
+        }
+        .la_mode_pic img{
+            height: 210px;
+            width: 285px;
+            border: 2px solid yellow;
+        }
+        .la_mode{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .la_mode_description{
+            border: 2px solid fuchsia;
+            height: 150px;
+            width: 265px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        .technolgies{
+            border: 2px dotted springgreen;
+            height: 35px;
+            width: 285px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .logos{
+            border: 2px solid paleturquoise;
+            height: 130px;
+            width: 255px;
+            padding: 15px;
+        }
+            .logos img{
+                width: 43px;
+                height: 43px;
+                padding: 2px;
+            }
+            .logos button{
+                background-color: green;
+                color: white;
+                border-radius: 10px;
+                padding: 5px;
+                margin-left: 90px;
+            }
+
 
