@@ -67,32 +67,36 @@
     }
         .project img{
             height: 210px;
-            width: 285px;
+            width: 283px;
         }
         .project .title{
-            border: 2px dotted springgreen;
+            background-image: repeating-linear-gradient(silver, gray);
             height: 35px;
-            width: 285px;
+            width: 270px;
             margin-top: 20px;
             font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            padding: 7px;
         }
         .project .description{
-            border: 2px solid fuchsia;
+            background-image: linear-gradient(to right, white , #dccddb);
             height: 190px;
             width: 260px;
             font-family: Arial, Helvetica, sans-serif;
             padding: 11px;
         }
         .technolgies{
-            border: 2px dotted springgreen;
+            background-image: repeating-linear-gradient(silver, gray);
             height: 35px;
-            width: 285px;
+            width: 268px;
             font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            padding: 7px;
         }
         .logos{
-            border: 2px solid paleturquoise;
+            background-image: linear-gradient(to right, white , #dccddb);
             height: 130px;
-            width: 255px;
+            width: 253px;
             padding: 15px;
         }
             .logos img{
