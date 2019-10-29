@@ -84,6 +84,7 @@
             width: 260px;
             font-family: Arial, Helvetica, sans-serif;
             padding: 11px;
+            margin-top: -4px;
         }
         .technolgies{
             background-image: repeating-linear-gradient(silver, gray);
