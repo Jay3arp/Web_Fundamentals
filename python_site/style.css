@@ -51,12 +51,75 @@
             color: white;
         }
 
-    .nav_bar{
-        width: 900px;
-        border: 2px solid gray;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+        .nav_bar {
+            width: 800px;
+            border: 2px solid gray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 30px;
+            margin-left: 100px;
+            padding-left: 15px;
+            border-radius: 8px;
+            padding: 5px;
+        }
         .nav_bar h2{
             display: inline-block;
+            padding: 5px;
+            margin-left: 15px;
+            font-size: 22px;
         }
 
+    .links{
+        width: 180px;
+        /* height: 217px; */
+        border: 2px solid orange;
+        margin-top: 20px;
+        margin-left: 100px;
+        display: inline-block;
+    }
+        .links ul li{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            list-style-type: none;
+            margin-top: 10px;
+        }
+        .links .arrows{
+            font-size: 10px;
+            color: goldenrod;
+            margin-right: 5px;
+        }
+
+    .paragraph{
+        width: 650px;
+        border: 2px solid green;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 15px;
+    }
+        .paragraph p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 15px;
+        }
+
+    .quotes{
+        width: 350px;
+        border: 2px solid darkcyan;
+        text-align: center;
+        margin-left: 145px;
+        margin-top: 15px;
+    }
+        .quotes h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            padding-top: 10px;
+            color: goldenrod;
+        }
+        .quotes h3{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 17px;
+            padding-top: 10px;
+            /* color: whitesmoke; */
+        }
