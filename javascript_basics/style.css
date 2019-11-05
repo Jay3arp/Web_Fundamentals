@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    height: 650px;
+    width: 970px;
+    /* border: 2px solid red; */
+    background-color: rgba(12, 12, 63, 0.979);
+    padding: 2px;
+}
+    .header{
+        height: 65px;
+        /* border: 2px solid purple; */
+        background-color: red;
+        margin: 10px;
+        border-radius: 15px;
+    }
+        .header h1{
+            color: rgb(181, 193, 207);
+            padding: 15px;
+            margin: 2px;
+
+        }
+
+    .navBar{
+        height: 185px;
+        width: 170px;
+        /* border: 2px solid orange; */
+        background-color: rgb(23, 143, 137);
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 15px;
+        display: inline-block;
+        padding: 15px;
+        vertical-align: top;
+        color: silver;
+    }
+        .navBar a{
+            color: aqua;
+        }
+        .overview{
+            color: silver;
+            margin-left: 15px;
+            list-style-type: disc;
+        }
+        ul li{
+            color: silver;
+            list-style-type: circle;
+            margin-left: 32px;
+        }
+
+    .main_content{
+        height: 485px;
+        width: 720px;
+        /* border: 2px solid green; */
+        background-color: black;
+        color: silver;
+        border-radius: 15px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+        .main_content h2{
+            margin: 2px;
+            padding: 1px;
+        }
+        .main_content li{
+            color: silver;
+            font-size: 14px;
+            padding: 3px; 
+            list-style-type: disc;
+            margin-top: 5px;
+        }
+        .main_content a{
+            color: aqua;
+        }
+        
+        .main_content span{
+            color: darkorchid;
+        }
+
+    .footer{
+    height: 45px;
+    width: 940px;
+    /* border: 2px solid lightseagreen; */
+    background-color: gray; 
+    margin: 12px;
+    border-radius: 15px;
+    }
+        .footer p{
+            color: white;
+            padding: 15px;
+        }
+        .footer a{
+            color: aqua;
+        }
+
+
+
+
+
+
+
