@@ -123,3 +123,62 @@
             padding-top: 10px;
             /* color: whitesmoke; */
         }
+
+    .middle_content{
+        width: 970px;
+        border: 2px solid red;
+    }
+        .blue_line{
+            width: 400px;
+            border: 2px solid blue;
+            margin-left: 50px;
+            display: inline-block;
+        }
+
+    .get_started{
+        width: 292px;
+        border: 2px solid hotpink;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 85px;
+        display: inline-block;
+    }
+        .get_started h3{
+            font-size: 18px;
+        }
+        .get_started li{
+            margin-left: 35px;
+            list-style-type: square;
+            text-align: center;
+            font-size: 15px;
+        }
+        .get_started span{
+            color: orange;
+            font-size: 14px;
+        }
+
+    .applications{
+        width: 330px;
+        border: 2px solid chartreuse;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 85px;
+        display: inline-block;
+        vertical-align: top;
+    }
+        .applications .PyPI{
+            font-size: 11px;
+            color: blue;
+        }
+        .applications li{
+            margin-left: 25px;
+            list-style-type: square;
+            text-align: center;
+            font-size: 15px;
+        }
+        .applications span{
+            color: orange;
+            font-size: 14px;
+        }
