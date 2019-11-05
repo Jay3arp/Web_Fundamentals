@@ -5,8 +5,9 @@
 
 .wrapper{
     width: 970px;
-    border: 2px solid teal;
+    background-color: #245076;
 }
+
     .text{
         text-align: end;
         padding-right: 50px;
@@ -16,11 +17,18 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: 14px;
             display: inline-block;
+            color: white;
+        }
+        .text a{
+            color: goldenrod;
+        }
+        .vertical_bar{
+            color: black;
+            font-size: 15px;;
         }
 
     .python{
         width: 500px;
-        border: 2px solid red;
         display: inline-block;
     }
         .python img{
@@ -30,7 +38,7 @@
 
     .search_box{
         width: 250px;
-        border: 2px solid limegreen;
+        background-color: #444444;
         display: inline-block;
         vertical-align: top;
         padding: 12px;
@@ -47,13 +55,13 @@
         .search_box button{
             border-radius: 4px;
             padding: 5px;
-            background-color: blue;
+            background-color: #245076;
             color: white;
         }
 
         .nav_bar {
             width: 800px;
-            border: 2px solid gray;
+            background-color: #457ead;
             font-family: Arial, Helvetica, sans-serif;
             margin-top: 30px;
             margin-left: 100px;
@@ -64,14 +72,14 @@
         .nav_bar h2{
             display: inline-block;
             padding: 5px;
-            margin-left: 15px;
+            margin-left: 25px;
             font-size: 22px;
+            color: white;
+            font-weight: 100;
         }
 
     .links{
         width: 180px;
-        /* height: 217px; */
-        border: 2px solid orange;
         margin-top: 20px;
         margin-left: 100px;
         display: inline-block;
@@ -88,10 +96,13 @@
             color: goldenrod;
             margin-right: 5px;
         }
+        .links a{
+            color: white;
+        }
 
     .paragraph{
         width: 650px;
-        border: 2px solid green;
+        height: 320px;
         display: inline-block;
         vertical-align: top;
         margin-top: 15px;
@@ -100,11 +111,11 @@
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
             font-size: 15px;
+            color: white;
         }
 
     .quotes{
         width: 350px;
-        border: 2px solid darkcyan;
         text-align: center;
         margin-left: 145px;
         margin-top: 15px;
@@ -114,39 +125,34 @@
             font-weight: 300;
             font-size: 20px;
             padding-top: 10px;
-            color: goldenrod;
+            color: #fed32e;
         }
         .quotes h3{
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 300;
             font-size: 17px;
             padding-top: 10px;
-            /* color: whitesmoke; */
+            color: white;
         }
 
     .middle_content{
         width: 970px;
-        border: 2px solid red;
     }
         .blue_line{
             width: 400px;
-            border: 2px solid blue;
+            border: 2px solid #73a7d5;
             margin-left: 50px;
             display: inline-block;
         }
 
     .get_started{
         width: 292px;
-        border: 2px solid hotpink;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         font-size: 14px;
         margin-left: 85px;
         display: inline-block;
     }
-        .get_started h3{
-            font-size: 18px;
-        }
         .get_started li{
             margin-left: 35px;
             list-style-type: square;
@@ -154,13 +160,12 @@
             font-size: 15px;
         }
         .get_started span{
-            color: orange;
+            color: #75a8d5;
             font-size: 14px;
         }
 
     .applications{
         width: 330px;
-        border: 2px solid chartreuse;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         font-size: 14px;
@@ -171,31 +176,35 @@
     }
         .applications .PyPI{
             font-size: 11px;
-            color: blue;
+            color: #79abd6;
         }
         .applications li{
-            margin-left: 25px;
+            margin-left: 50px;
             list-style-type: square;
             text-align: center;
             font-size: 15px;
         }
         .applications span{
-            color: orange;
+            color: #75a8d5;
             font-size: 14px;
         }
 
     .footer{
         width: 967px;
-        border: 2px solid darkred;
+        background-color: #2f6b9f;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 12px;
         padding-top: 50px;
+        text-align: center;
     }
     .footer h2{
         display: inline-block;
         margin-left: 50px;
+        color: #82b4e0;
+        font-weight: 100;
         }
         .footer p{
             text-align: center; 
             margin-top: 10px;
+            color: #7eb1df;
         }
