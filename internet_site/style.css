@@ -1,86 +1,102 @@
 *{
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper{
-    border: 2px seagreen solid;
-    width: 970px;
-    font-family: Arial, Helvetica, sans-serif;
+.globe{
+  height: 80px;
 }
-    .header img{
-        width: 100px;
-        display: inline-block;
-    }
-        .header h1{
-            display: inline-block;
-            vertical-align: top;
-            font-size: 45px;
-            margin-top: 35px;
-            font-weight: 100;
-        }
-        .header span{
-            color: skyblue;
-        }
-        .header h2{
-            width: 950px;
-            border: 2px rgb(124, 122, 136) solid;
-            background-color: skyblue;
-            padding: 10px;
-            font-size: 30px;
-            font-weight: 100;
-        }
+h1{
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 100;
+  position: absolute;
+  margin-top: 20px;
+}
+span{
+  color: lightskyblue;
+}
+.wrapper{
+  width: 970px;
+  border: 2px springgreen dotted;
+}
+.sub_heading {
+  padding: 10px;
+  font-size: 25px;
+  width: 950px;
+  border: 2px slateblue dotted;
+  background-color: lightskyblue;
+  margin-top: -15px;
+  }
 
     .left_nav{
-        width: 190px;
-        border: 2px purple solid;
+      width: 200px;
+      /* height: 300px; */
+      border: 2px pink dotted;
+      display: inline-block;
     }
-    .left_nav h4{
-        font-size: 15px;
-    }
-        .left_nav span{
-            color: red;
-        }
-        .left_nav .watch{
-            background-color: blue;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-            width: 185px;
-            margin-top: 15px;
-        }
-        .left_nav .resources{
-            background-color: orange;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-            width: 185px;
-            margin-top: 2px;
-        }
-        .left_nav hr{
-            margin-top: 20px;
-        }
-
-    .advertisement{
-        background-image: url("Images/ad_background.png");
-        height: 230px;
-        width: 155px;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-    .advertisement img{
-        width: 100px;
-    }
-    .advertisement button{
-        background-color: skyblue;
+      .left_nav h4, h5{
+        margin-top: 20px;
+      }
+      .left_nav .internet{
+        color: red;
+      }
+      .left_nav span{
+        color: dodgerblue;
+      }
+      .left_nav .one_watch, .two_resources{
+        background-color: orange;
+        padding: 8px;
+        width: 180px;
         border-radius: 5px;
-        padding: 5px;
-        width: 160px;
+      }
+      .left_nav .one_watch{
+        margin-top: 20px;
+        background-color: blue;
+      }
+      .left_nav hr{
+        margin-top: 30px;
+      }
+      .advertisement{
+        width: 290;
+        height: 250px;
+        margin-top: 25px;
+        background-image: url("images/ad_background.png");
+        padding: 10px;
+      }
+      .advertisement {
+        text-align: center;
         color: white;
-    }
-
+        font-weight: 100;
+      }
+      .advertisement .ninja{
+        height: 110px;
+      }
+      .advertisement .learn{
+        margin-left: 5px;
+        background-color: turquoise;
+        color: white;
+        border-radius: 5px;
+        padding: 4px;
+        width: 170px;
+        margin-top: 5px;
+      }
     .main_content{
-        width: 700px;
-        border: 2px green solid;
+      width: 740px;
+      border: 2px dodgerblue dotted;
+      display: inline-block;
+      vertical-align: top;
+      height: 500px;
     }
+      .contact_info{
+        width: 720px;
+        height: 50px;
+        border: 2px purple dotted;
+      }
+        .paragraph_one{
+          width: 720px;
+          border: 2px saddlebrown dotted;
+          height: 300px;
+        }
+
