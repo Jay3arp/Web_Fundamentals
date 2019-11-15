@@ -14,29 +14,36 @@ h1{
   position: absolute;
   margin-top: 20px;
 }
-span{
+span .blue{
   color: lightskyblue;
 }
 .wrapper{
   width: 970px;
-  border: 2px springgreen dotted;
+  /* border: 2px springgreen dotted; */
+}
+.blue_net{
+  color: blue;
 }
 .sub_heading {
   padding: 10px;
   font-size: 25px;
-  width: 950px;
-  border: 2px slateblue dotted;
+  width: 790px;
+  /* border: 2px slateblue dotted; */
   background-color: lightskyblue;
   margin-top: -15px;
+  color: white;
   }
 
     .left_nav{
       width: 200px;
       /* height: 300px; */
-      border: 2px pink dotted;
+      /* border: 2px pink dotted; */
       display: inline-block;
     }
-      .left_nav h4, h5{
+      .left_nav h4{
+        margin-top: 20px;
+      }
+      .left_nav h5{
         margin-top: 20px;
       }
       .left_nav .internet{
@@ -83,20 +90,113 @@ span{
         margin-top: 5px;
       }
     .main_content{
-      width: 740px;
-      border: 2px dodgerblue dotted;
+      width: 755px;
+      /* border: 2px dodgerblue dotted; */
       display: inline-block;
       vertical-align: top;
       height: 500px;
+      margin-left: 6px;
     }
       .contact_info{
-        width: 720px;
-        height: 50px;
-        border: 2px purple dotted;
+        width: 585px;
+        /* height: 50px; */
+        /* border: 2px purple dotted; */
+        padding: 10px;
       }
-        .paragraph_one{
-          width: 720px;
-          border: 2px saddlebrown dotted;
-          height: 300px;
+        .house{
+          width: 20px;
         }
+        .dns{
+          display: inline-block;
+          font-size: 13px;
+          color: dodgerblue;
+          text-align: initial;
+        }
+        .contact_info h5{
+          margin-left: 445px;
+          margin-top: -35px;
+          font-size: 10px;
+          font-weight: 100;
+        }
+        .phone{
+          width: 35px;
+          /* background-color: red; */
+          margin-left: 395px;
+        }
+        .number {
+          display: inline-block;
+          font-size: 24px;
+          position: absolute;
+          margin-left: 12px;
+          color: aqua;
+        }
+        .international{
+          margin-left: 445px;
+          font-size: 10px;
+          margin-top: -15px;
+        }
+        .contact_info hr{
+          margin-top: 10px;
+          width: 580px;
+          color: green;
+        }
+        .paragraphs{
+          width: 580px;
+          /* border: 2px saddlebrown dotted; */
+          /* height: 300px; */
+          padding: 5px;
+        }
+          .paragraphs h3{
+            color: dodgerblue;
+          }
+          .paragraphs p{
+            font-size: 12px;
+          }
+          .paragraphs span{
+            color: blue;
+          }
+          .paragraphs li{
+            font-size: 12px;
+            margin-left: 35px;
+            margin-top: 10px;
+          }
+          .paragraphs .diagram{
+            width: 220px;
+            margin-left: 175px;
+            margin-top: 10px;
+          }
+          .paragraph_two{
+            margin-top: 10px;
+          }
+        .html_box{
+          width: 555px;
+          /* height: 50px; */
+          border-top: 4px solid blue;
+          border-left: 4px solid blue;
+          border-right: 4px solid blue;
+          border-bottom: none;  
+          margin-top: 15px;
+          padding: 10px;
+        }
+          .three_circles{
+            width: 100px;
+          }
+          .html_box h3{
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 15px;
+          }
+          .description{
+            margin-left: 120px;
+            margin-top: -70px;
+            font-size: 13px;
+          }
+          .learn{
+            margin-left: 120px;
+            margin-top: 5px;
+          }
+          .html_box a{
+            text-decoration: none;
+          }
+          
 
